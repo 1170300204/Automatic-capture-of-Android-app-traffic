@@ -1,7 +1,7 @@
 # Automatic-capture-of-Android-app-traffic
 自动控制Android应用产生对应流量并进行捕获和保存。<br><br>
 想要在Android平台下实现自动流量捕获，就需要找到一种方法使得我们可以控制Android设备自动的进行一些操作，进而控制相应的软件完成一系列预定的动作以产生对应的流量。<br><br>
-# ADB
+## ADB
 ADB的全名为Android debug bridge（Android调试桥），它是一种Android官方提供的功能十分强大的命令行工具，以帮助PC和Android设备之间建立连接进行通信。通过ADB我们可以实现很多功能，例如访问Android设备的Unix shell，并通过Unix shell在设备上运行各种各样的指令。<br><br>
 其中我们重点关注 `adb shell input` 指令。 `adb shell input` 指令能够模拟按键输入，通过给定按键事件和坐标，即可以完成屏幕点击、滑动和键盘输入等行为来达成自动操作应用的目的。例如，我们可以通过以下指令完成“点击屏幕上(200,400)坐标点”动作：
 ```
